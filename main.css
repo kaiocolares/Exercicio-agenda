@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: aquamarine;
+    padding: 16px;
+    border: 2px solid brown;
+}
+
+header h1 {
+    padding-bottom: 16px;
+    font-size: 50px;
+    color: brown;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 40px 0;
+}
+
+form h2 {
+    color: brown;
+    font-size: 30px;
+}
+
+form input {
+    font-size: 22px;
+    padding: 4px;
+    color: brown;
+}
+
+form button {
+    background-color: green;
+    font-size: 22px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+table{
+    color: brown;
+    font-size: 22px;
+    padding: 4px;
+    width: 100%;
+}
+
+table thead {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table tbody td {
+    padding: 8px;
+}
